@@ -17,7 +17,7 @@ public class MailService {
 		try {
 			MimeMessage message = javaMailSender.createMimeMessage();
 			MimeMessageHelper helper = new MimeMessageHelper(message, true);
-			helper.setFrom("springexample9@gmail.com");
+			helper.setFrom("tausif.ahmad@hcl.com");
 			helper.setTo(to);
 			helper.setSubject(subject);
 			helper.setText(text, true); // true indicates HTML content
